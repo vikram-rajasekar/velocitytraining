@@ -32,7 +32,7 @@ node {
 
     marathon(
         url: 'http://marathon.mesos:8080',
-        forceUpdate: false,
+        forceUpdate: true,
         credentialsId: 'dcos-token',
         filename: 'marathon.json',
         appId: 'vik-velocity',
